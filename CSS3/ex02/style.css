@@ -1,0 +1,15 @@
+@charset utf-8;
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+/*Agrupamento de seletores*/
+h1,h2,p{font-family: Arial;
+    color:black;
+    text-align: justify;
+}
+body{
+    background-color: white;
+}

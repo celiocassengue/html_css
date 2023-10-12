@@ -1,0 +1,20 @@
+@charset utf-8;
+
+/*Seletor universal*/
+*{
+    margin: 0;
+    border: none;
+}
+/*Seletor Tag*/
+body{
+    background-color: ;
+}
+/*Seletor ID*/
+#conteudo{
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    width: 500px;
+    height: 60px;
+
+}

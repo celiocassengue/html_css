@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../Desafio_mapa/favicon.png">
+    <title>Paisagem_flexivel</title>
+    <style media="screen">
+      body{
+background-color:gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Imagem flexivel</h1>
+    <p>Você está vendo a imgem completa ?.Experimente ampliar  o tamanho da sua janela para aproveitar a experiência&#x1F970</p>
+  <picture>
+      <source media="(max-width:750px)" srcset="paisagem-p.png" type="image/png">
+      <source media="(max-width:1050)" srcset="paisagem-m.png" type="image/png">  
+      <img src="paisagem-g.png" alt="imagem grande">
+  </picture>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+@charset utf-8;
+/*Seletor universal*/
+*{
+    background-color: rgb(34, 3, 34);
+    font-family: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Seletor ID*/
+#text{
+    background-color: purple;
+    height:300px;
+    border-radius: 10px;
+    margin: 200px;
+}
+#text1{
+    background-color:purple;
+    height: 325px;
+    border-radius: 10px;
+    margin: 200px;
+}

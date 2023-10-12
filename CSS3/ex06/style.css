@@ -1,0 +1,29 @@
+@charset utf-8;
+/*Seletor universal*/
+*{
+    font-size: 100%;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*Seletor id*/
+#texto{
+    font-size: 1em;
+    font-family: times,"times new roman",serif;
+}
+/*Seletor tag*/
+div{
+    background-color: rgb(95, 35, 35);
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    color: white;
+    font-family: times,"times new roman",serif;
+}
+h1{
+    background-color: brown;
+    font-family: times,"times new roman",serif;
+    font-size:1em;
+}

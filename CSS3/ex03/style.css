@@ -1,0 +1,21 @@
+@charset utf-8;
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/*Seletores "class" e "ID"*/
+h1[id="titulo"]{
+    color:blue;
+}
+.nome{
+    color: aqua;
+}
+#sub{
+    color: red;
+}
+#text{
+    font-family: arial;
+    font-size: 18x;
+    color: brown;
+}

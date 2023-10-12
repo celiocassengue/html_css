@@ -1,0 +1,26 @@
+@charset utf-8;
+/*Seletor universal*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+/*Seletor ID*/
+#linear{
+    background: radial-gradient(aqua,blue);
+    height:300px;
+    border-radius: 10px;
+    margin: 200px;
+
+}
+#radial{
+    background: radial-gradient(aqua,blue);
+    height: 325px;
+    border-radius: 10px;
+    margin: 200px;
+}
+/*Seletor tag*/
+body{
+    background: linear-gradient(to top left,aqua,blue);
+}

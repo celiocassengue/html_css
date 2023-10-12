@@ -1,0 +1,26 @@
+@charset utf-8;
+/*Seletor universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 100%;
+}
+/*Seletor ID*/
+#color{
+    position: absolute;right:530px;top:150px;
+    transition-property:all;
+    transition-timing-function:linear;
+    transition-delay:0.025s;
+    transition-duration:0.55s;
+}
+#color:hover{
+    position: absolute;right:450px;top:90px;
+    width:500px;
+    height:500px;
+}
+/*Seletor Tag*/
+body{
+    background-color: black;
+    position: relative;
+}

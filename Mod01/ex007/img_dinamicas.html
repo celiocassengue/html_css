@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>imagens</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+    <h1>Trabalhando com imagens dinâmicas !</h1>
+    </header>
+    <div>
+        <p>Aqui vai aparecer uma imagem:</p>
+        <picture>
+            <source media="(max-width:750px)" srcset="Gimp/img-i.png" type="image/png">
+            <source media="(max-width:1050px)" srcset="Gimp/img-m.png" type="image/png">
+            <img src="Gimp/img-g.png" alt="imagem-grande">
+        </picture>
+        <h1>Apresentaremos também audios aqui !</h1>
+        <p>Aqui vai aparecer um audio:</p>
+        <audio src="audio/Zahara2-Umthwalo.mp3" controls loop></audio>
+    </div>
+</body>
+</html>

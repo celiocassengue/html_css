@@ -1,0 +1,31 @@
+@charset utf-8;
+/*RESET CSS*/
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+body{
+background-color: whitesmoke;
+font-family: sans-serif;
+}
+ul{
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:red;
+    font-weight: bold; 
+}
+/*Usando Pseudo-Classes*/
+a:visited{
+
+    color:darkred;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+}   

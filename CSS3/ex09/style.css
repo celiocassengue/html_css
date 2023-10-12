@@ -1,0 +1,37 @@
+@charset utf-8;
+/*Seletor universal*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: 100%;
+}
+/*Seletor tag*/
+h1{
+    text-align: center;
+    margin-top:5px;    
+}
+/*Seletor ID composto*/
+#conteudo,#conteudo2,#conteudo3{
+    width: 200px;
+    height: 200px;
+}
+/*Seletor ID simoles*/
+#conteudo{
+    background-color:yellow;
+    float: left;}
+#conteudo2{
+    background-color: orangered;
+    float: right;
+}
+#conteudo3{
+    background-color:rgb(245, 116, 116);
+    float:right;
+}
+#principal{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}

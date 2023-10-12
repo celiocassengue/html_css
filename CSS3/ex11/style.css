@@ -1,0 +1,23 @@
+@charset utf-8;
+/*Seletor universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 100%;
+}
+/*Seletor ID*/
+#color{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    transition-property:all;
+    transition-timing-function:linear;
+    transition-delay:0.025s;
+    transition-duration:0.55s;
+}
+#color:hover{
+    width:500px;
+    height:500px;
+    background-color: red;
+}

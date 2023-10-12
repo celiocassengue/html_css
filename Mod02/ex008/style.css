@@ -1,0 +1,17 @@
+@charset utf-8;
+/*RESET CSS*/
+
+/*Seletor tag*/
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(207, 207, 196);
+    font-weight: bold;
+    font-size: 1.05em;
+}
+p{
+    background-color: lightcoral;
+    width: 100vw;
+    height: 55vh;
+    padding-top: 6px;
+}

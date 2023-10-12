@@ -1,0 +1,17 @@
+@charset utf-8;
+/*Seletor universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Seleetor tag*/
+p{
+color:white;
+}
+body{
+    background-color: black;
+}
+h1{
+    color:white;
+}

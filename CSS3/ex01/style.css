@@ -1,0 +1,33 @@
+@charset utf-8;
+
+/*Seletor universal*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/*Seletor por ta*/
+body{
+    background-color:greenyellow;
+    color: pink;
+    font-family: arial;
+}
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 16px;
+}
+/*Seletor por atributo*/
+input[type="email"]{
+background-color: white;
+width: 200px;
+height:25px;
+}
+input[type="text"]{
+    background-color: white;
+    width: 200px;
+    height:25px;
+}

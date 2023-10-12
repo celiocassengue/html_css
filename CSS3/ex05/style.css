@@ -1,0 +1,14 @@
+@charset utf-8;
+
+/*Seletor universal*/
+*{
+
+}
+/*Seletor Tag*/
+body{
+    background-color: aqua;
+}
+/*Seletor ID*/
+#conteudo{
+    color: black;
+}

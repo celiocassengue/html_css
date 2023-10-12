@@ -1,0 +1,19 @@
+@charset utf-8;
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+ul,a,abbr{
+    text-decoration: none;
+}
+/*Seletor Tag*/
+body{
+    font-family: sans-serif;
+    font-size :1em;
+    background-color: gray ;
+}
+div>#p1{
+    background-color: rgb(252, 134, 193);
+}
