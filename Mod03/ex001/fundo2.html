@@ -8,9 +8,33 @@
         body{
     background-color: gray;
 }
+#container{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    background-image: url(imagens-cap19/target001.png);
+    background-size: 100% 100%;
+}
+#conteudo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    background-image: url(imagens-cap19/target001.png);
+    background-size: 100% 100%;
+    transform: translate(-50% -50%);
+}
     </style>
 </head>
 <body>
-    
+    <div id="container">
+        <article id="conteudo">
+
+        </article>
+    </div>
 </body>
 </html>
