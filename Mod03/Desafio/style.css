@@ -1,0 +1,54 @@
+@charset "utf-8";
+@font-face {
+    font-family:Passion_One;
+    src: url("fontes/PassionOne-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+    font-family:Passion_One(regular);
+    src: url("fontes/PassionOne-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+    font-family:Sriracha;
+    src: url("fontes/Sriracha-Regular.ttf")
+    format("truetype");
+}
+/*RESET CSS*/
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+/*Criando variáveis*/
+:root{
+    --cor01:white;
+    --cor02:black;
+    --cor03:rgba(0, 0, 0, 0.301);
+
+    --font1:Passion_One;
+    --font2:Passion_One(regular);
+    --font3:Sriracha;
+}
+/*Seletores personalizados*/
+.link{
+    color:var(--cor01);
+    font-weight:lighter;
+}
+.link:hover{
+    text-decoration: underline;
+}
+/*Formatação do header*/
+header{
+    font-family: var(--font1);
+    color: var(--cor01);
+    background-color: var(--cor02);
+}
+/*Formatação do conteúdo*/    
+main>p{
+    font-family:var(--font3);
+    line-height:1.5em;
+    text-indent: 20px;
+}
