@@ -5,7 +5,7 @@
     format("truetype");
 }
 @font-face {
-    font-family:Passion_One(regular);
+    font-family:Passion_One-regular;
     src: url("fontes/PassionOne-Regular.ttf")
     format("truetype");
 }
@@ -29,26 +29,53 @@
     --cor03:rgba(0, 0, 0, 0.301);
 
     --font1:Passion_One;
-    --font2:Passion_One(regular);
+    --font2:Passion_One-regular;
     --font3:Sriracha;
-}
-/*Seletores personalizados*/
-.link{
-    color:var(--cor01);
-    font-weight:lighter;
-}
-.link:hover{
-    text-decoration: underline;
+    --font4:verdana;
 }
 /*Formatação do header*/
 header{
-    font-family: var(--font1);
-    color: var(--cor01);
     background-color: var(--cor02);
+    height:100px;
 }
-/*Formatação do conteúdo*/    
-main>p{
-    font-family:var(--font3);
-    line-height:1.5em;
-    text-indent: 20px;
+header h1{
+    color: var(--cor01);
+    font-family: var(--font1);
+    
+}
+header p{
+    color: var(--cor01);
+    font-family: var(--font4);
+    font-weight:100;
+}
+.link{
+    color: var(--cor01);
+}
+.link:hover{
+    font-family: var(--font1);
+    text-decoration:underline;
+    color: var(--cor02);
+    background-color: var(--cor01);
+    border-radius:3px;
+    padding:2px;   
+}
+header div{
+    margin: auto;
+    padding-top: 15px;
+    width:250px;
+    min-width: auto;
+    height:70px;
+}
+/*Formatação do MAIN(CONTEÚDO PRINCIPAL)*/
+main p{
+    font-family: var(--font3),var(--font4);
+    font-size: 1.5em;
+    line-height:2em;
+    text-align: left;
+    max-width: 800px;
+    min-width: 320px;
+    margin-left:40px;
+}
+main>div{
+
 }
