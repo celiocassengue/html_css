@@ -77,11 +77,9 @@ main p{
     max-height: auto;
     line-height:2em;
 }
-.conteúdo{
+#img01{
     min-height:auto;
     height: 650px;
-}
-#img01{
     background-attachment: fixed;
     background-position: right center;
     background-image: url("pacote-d012/imagens/background001.jpg");
@@ -99,10 +97,14 @@ main p{
     width: 300px;
 }
 #img02{
+    width: 100%;
+    min-height:auto;
+    height: 650px;
     background-attachment: fixed;
     background-position: right center;
     background-image: url("pacote-d012/imagens/background002.jpg");
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    background-size: auto;   
     padding: 5px;
     position: relative;
 }
@@ -115,11 +117,7 @@ main p{
     border-radius: 10px;
     width: 300px;
 }
-.espaçamento{
-    position: relative;
-}
-.espaçamento p{
-    position: absolute;
-    left: 7%;
-    top: 3%;
+.conteúdo{
+    height: auto;
+    padding: 10px;
 }
