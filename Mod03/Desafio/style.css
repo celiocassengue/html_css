@@ -121,3 +121,25 @@ main p{
     height: auto;
     padding: 10px;
 }
+footer{
+    height:50px;
+    background-color: var(--cor02);
+    position: relative;
+}
+footer>p{
+    position: absolute;
+    left:40%;
+    top:25%;
+    display: inline;
+    color:var(--cor01);
+    font-family: var(--font4);
+    font-size: 1.5em;
+}
+footer a{
+    color: var(--cor01);
+}
+footer a:hover{
+    color: var(--cor02);
+    background-color: var(--cor01);
+    text-decoration: underline;
+}
