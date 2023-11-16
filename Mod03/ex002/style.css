@@ -1,4 +1,7 @@
 @charset "utf-8";
+table{
+    border-collapse: collapse;
+}
 td,th{
     border: 1px solid black;
 }
@@ -6,4 +9,7 @@ caption{
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
-k}
+}
+tbody tr:nth-child(2n){
+    background-color: lightgray;
+}
