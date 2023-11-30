@@ -1,4 +1,50 @@
-@charset utf-8;
-body{
-    background-color: gray;
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+}
+main{
+    background-image: url("imagens/fundo-madeira.jpg");
+    background-size:cover;
+    height: 100vh;
+}
+#telefone{
+    position: relative;
+    margin: auto;
+    padding-top: 100px;
+    width:200px;
+}
+#telefone img{
+    height:400px;
+    margin: auto;
+    max-width: 311px;
+    max-height:627px;
+}
+iframe{
+    background-image: url("imagens/tela-home.jpg");
+    background-size: 100%;
+    position: absolute;
+    left:7.4%;
+    width: 170px;
+    height:305px ;
+    margin: auto;
+    margin-top:3em;
+}
+#home{
+    background-color: green;
+    display: inline;
+    overflow: hidden;
+    border-radius:2px;
+    overflow: hidden;
+}
+#home img{
+    max-width: 100px;
+    
 }
