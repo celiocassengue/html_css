@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 *{
     margin: 0;
     padding: 0;
@@ -12,27 +11,34 @@ html,body{
 }
 main{
     background-image: url("imagens/fundo-madeira.jpg");
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 #telefone{
     position: relative;
-    margin: auto;
-    padding-top: 100px;
+    position:absolute;
+    left:50%;                             /*margin: auto; padding-top: 100px;*/
+    top:50%; 
+    transform:translate(-50%,-50%); 
     width:200px;
 }
 #telefone img{
+    background-size: cover;
     height:400px;
-    margin: auto;
     max-width: 311px;
     max-height:627px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.479);
+    overflow: hidden;
+    border-radius: 40px;
 }
 iframe{
     background-image: url("imagens/tela-home.jpg");
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;/* Ou "COVER" */
     position: absolute;
-    left:7.4%;
-    width: 170px;
+    left:7.2%;
+    width: 172px;
     height:305px ;
     margin: auto;
     margin-top:3em;
@@ -42,9 +48,10 @@ iframe{
     display: inline;
     overflow: hidden;
     border-radius:2px;
-    overflow: hidden;
 }
 #home img{
     max-width: 100px;
+}
+#facebook{
     
 }
