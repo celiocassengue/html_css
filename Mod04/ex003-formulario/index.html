@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulários</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Trabalhando com formulários</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <input type="submit" value="Cadastrar">
+    </form>
 </body>
 </html>
