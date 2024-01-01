@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            display: inline;
+            text-align: center;
+            height: 40vh;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+        }
+        form{
+            text-align: center
+        }
+        form p{
+            height: 10vh;
+        }
+        p input{
+            height: 30px;
+            border-radius: 10px;
+        }
+        input{
+            border-radius: 5px;
+        }
+        input:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários  simples</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <legend>Media do aluno</legend>
+        <fieldset>
+            <p>
+                <label for="inome"></label>
+                <input type="text" name="
+                nome" id="inome" placeholder="Nome" required>
+            </p>
+            <p>
+                <label for="imedia"></label>
+                <input type="number" name="media" id="imedia" step="0.5" placeholder="Media" required >
+            </p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
