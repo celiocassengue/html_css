@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* estilos para tela*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+main{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 15px black;
+    text-align: justify;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}

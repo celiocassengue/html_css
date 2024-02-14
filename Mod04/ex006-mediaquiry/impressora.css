@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*Estilos para impressora*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+div p{
+    padding: 5px;
+    line-height: 1.2em;
+    text-indent: 30px;
+}
