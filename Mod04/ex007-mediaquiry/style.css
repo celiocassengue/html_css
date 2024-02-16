@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*Configurações gerais*/
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #233eff;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    text-shadow: 5px 5px 20px black;
+}
+h1{
+    padding: 10px;
+}

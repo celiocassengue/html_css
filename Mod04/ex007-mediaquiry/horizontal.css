@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/*Modo landscape*/
+
+body{
+    background-image: url(../ex006-mediaquiry/pacote-imagens-cap25/cev-landscape.jpg);
+    background-position:left center;
+}
