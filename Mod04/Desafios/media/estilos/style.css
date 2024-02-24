@@ -24,6 +24,9 @@ main{
     margin-top:20px;
     padding: 10px;
 }
+h1{
+    text-align: center;
+}
 #phone{ 
     display: block;
     margin: auto;
