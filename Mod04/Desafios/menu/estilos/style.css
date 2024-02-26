@@ -23,7 +23,11 @@ body p{
     text-align: justify;
 }
 header{
+    width: 100vw;
     background-color: gray;
+}
+html,body,atrimain{
+    width: 100vw;
 }
 article{
     border-radius: 2px;
@@ -49,4 +53,7 @@ li{
 }
 li:hover{
     border: solid white;
+}
+#icon{
+    display: none;
 }
