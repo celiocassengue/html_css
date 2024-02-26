@@ -12,8 +12,8 @@
     <main>
         <header>
         <h1>Meu site</h1>
-        <span id="icon" class="material-symbols-outlined">&#xe5d2;</span>
-            <menu>
+        <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">&#xe5d2;</span>
+            <menu id="menu">
                 <ul>
                     <li><a href="#"></a>Opção 1</li>
                     <li><a href="#"></a>Opção 2</li>
@@ -33,5 +33,15 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, neque? Eum voluptas omnis rerum et quisquam, explicabo amet eligendi harum excepturi iste dolor non magnam quasi accusamus placeat. Eligendi, vero?</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+  if (menu.style.display == 'block'){
+    menu.style.display = 'none'
+  }
+  else{
+    menu.style.display = 'block'
+  }
+}
+    </script>
 </body>
 </html>
